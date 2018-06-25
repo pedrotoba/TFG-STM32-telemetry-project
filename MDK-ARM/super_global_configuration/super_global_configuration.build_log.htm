@@ -1,0 +1,124 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Pedro Torres, PeterCo, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.24.1
+Toolchain Path:  D:\STM32_apps\Keil\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DCM.DLL V1.16.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.1.0
+Dialog DLL:      TCM.DLL V1.32.0.0
+ 
+<h2>Project:</h2>
+D:\STM32_projects\super_global_configuration\MDK-ARM\super_global_configuration.uvprojx
+Project File Date:  05/12/2018
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'D:\STM32_apps\Keil\ARM\ARMCC\Bin'
+Build target 'super_global_configuration'
+compiling main.c...
+../Inc/hal_gps.h(41): warning:  #1295-D: Deprecated declaration print_data - give arg types
+  void print_data();
+../Src/main.c(144): warning:  #177-D: variable "b"  was declared but never referenced
+  	int b = 0;
+../Src/main.c(145): warning:  #177-D: variable "id"  was declared but never referenced
+  	uint8_t id;
+../Src/main.c(149): warning:  #177-D: variable "bmp_data"  was declared but never referenced
+  	char bmp_data[30]="";
+../Src/main.c(151): warning:  #177-D: variable "temperatura"  was declared but never referenced
+  	float temperatura,press;
+../Src/main.c(151): warning:  #177-D: variable "press"  was declared but never referenced
+  	float temperatura,press;
+../Src/main.c(152): warning:  #177-D: variable "mostrado"  was declared but never referenced
+  	int mostrado = 0;
+../Src/main.c(155): warning:  #177-D: variable "angle_pitch_buffer"  was declared but never referenced
+  	int16_t  angle_pitch_buffer,angle_roll_buffer;
+../Src/main.c(155): warning:  #177-D: variable "angle_roll_buffer"  was declared but never referenced
+  	int16_t  angle_pitch_buffer,angle_roll_buffer;
+../Src/main.c(156): warning:  #177-D: variable "acc_x"  was declared but never referenced
+  	int16_t acc_x, acc_y, acc_z, acc_total_vector;
+../Src/main.c(156): warning:  #177-D: variable "acc_y"  was declared but never referenced
+  	int16_t acc_x, acc_y, acc_z, acc_total_vector;
+../Src/main.c(156): warning:  #177-D: variable "acc_z"  was declared but never referenced
+  	int16_t acc_x, acc_y, acc_z, acc_total_vector;
+../Src/main.c(156): warning:  #177-D: variable "acc_total_vector"  was declared but never referenced
+  	int16_t acc_x, acc_y, acc_z, acc_total_vector;
+../Src/main.c(157): warning:  #177-D: variable "gyro_x_cal"  was declared but never referenced
+  	int32_t gyro_x_cal=0,gyro_y_cal=0,gyro_z_cal=0; // gyro calibration value
+../Src/main.c(157): warning:  #177-D: variable "gyro_y_cal"  was declared but never referenced
+  	int32_t gyro_x_cal=0,gyro_y_cal=0,gyro_z_cal=0; // gyro calibration value
+../Src/main.c(157): warning:  #177-D: variable "gyro_z_cal"  was declared but never referenced
+  	int32_t gyro_x_cal=0,gyro_y_cal=0,gyro_z_cal=0; // gyro calibration value
+../Src/main.c(158): warning:  #177-D: variable "angle_pitch"  was declared but never referenced
+  	float angle_pitch, angle_roll, angle_pitch_acc,angle_roll_acc;
+../Src/main.c(158): warning:  #177-D: variable "angle_roll"  was declared but never referenced
+  	float angle_pitch, angle_roll, angle_pitch_acc,angle_roll_acc;
+../Src/main.c(158): warning:  #177-D: variable "angle_pitch_acc"  was declared but never referenced
+  	float angle_pitch, angle_roll, angle_pitch_acc,angle_roll_acc;
+../Src/main.c(158): warning:  #177-D: variable "angle_roll_acc"  was declared but never referenced
+  	float angle_pitch, angle_roll, angle_pitch_acc,angle_roll_acc;
+../Src/main.c(159): warning:  #177-D: variable "angle_pitch_output"  was declared but never referenced
+  	float angle_pitch_output = 0,angle_roll_output = 0,pitch =0,roll = 0, gyro_x_delta, gyro_y_delta, gyro_x_total, gyro_y_total, last_x = 0.0, last_y = 0.0, rotation_x, rotation_y;
+../Src/main.c(159): warning:  #177-D: variable "angle_roll_output"  was declared but never referenced
+  	float angle_pitch_output = 0,angle_roll_output = 0,pitch =0,roll = 0, gyro_x_delta, gyro_y_delta, gyro_x_total, gyro_y_total, last_x = 0.0, last_y = 0.0, rotation_x, rotation_y;
+../Src/main.c(159): warning:  #177-D: variable "gyro_x_delta"  was declared but never referenced
+  	float angle_pitch_output = 0,angle_roll_output = 0,pitch =0,roll = 0, gyro_x_delta, gyro_y_delta, gyro_x_total, gyro_y_total, last_x = 0.0, last_y = 0.0, rotation_x, rotation_y;
+../Src/main.c(159): warning:  #177-D: variable "gyro_y_delta"  was declared but never referenced
+  	float angle_pitch_output = 0,angle_roll_output = 0,pitch =0,roll = 0, gyro_x_delta, gyro_y_delta, gyro_x_total, gyro_y_total, last_x = 0.0, last_y = 0.0, rotation_x, rotation_y;
+../Src/main.c(159): warning:  #177-D: variable "gyro_x_total"  was declared but never referenced
+  	float angle_pitch_output = 0,angle_roll_output = 0,pitch =0,roll = 0, gyro_x_delta, gyro_y_delta, gyro_x_total, gyro_y_total, last_x = 0.0, last_y = 0.0, rotation_x, rotation_y;
+../Src/main.c(159): warning:  #177-D: variable "gyro_y_total"  was declared but never referenced
+  	float angle_pitch_output = 0,angle_roll_output = 0,pitch =0,roll = 0, gyro_x_delta, gyro_y_delta, gyro_x_total, gyro_y_total, last_x = 0.0, last_y = 0.0, rotation_x, rotation_y;
+../Src/main.c(159): warning:  #177-D: variable "last_x"  was declared but never referenced
+  	float angle_pitch_output = 0,angle_roll_output = 0,pitch =0,roll = 0, gyro_x_delta, gyro_y_delta, gyro_x_total, gyro_y_total, last_x = 0.0, last_y = 0.0, rotation_x, rotation_y;
+../Src/main.c(159): warning:  #177-D: variable "last_y"  was declared but never referenced
+  	float angle_pitch_output = 0,angle_roll_output = 0,pitch =0,roll = 0, gyro_x_delta, gyro_y_delta, gyro_x_total, gyro_y_total, last_x = 0.0, last_y = 0.0, rotation_x, rotation_y;
+../Src/main.c(159): warning:  #177-D: variable "rotation_x"  was declared but never referenced
+  	float angle_pitch_output = 0,angle_roll_output = 0,pitch =0,roll = 0, gyro_x_delta, gyro_y_delta, gyro_x_total, gyro_y_total, last_x = 0.0, last_y = 0.0, rotation_x, rotation_y;
+../Src/main.c(159): warning:  #177-D: variable "rotation_y"  was declared but never referenced
+  	float angle_pitch_output = 0,angle_roll_output = 0,pitch =0,roll = 0, gyro_x_delta, gyro_y_delta, gyro_x_total, gyro_y_total, last_x = 0.0, last_y = 0.0, rotation_x, rotation_y;
+../Src/main.c(160): warning:  #177-D: variable "set_gyro_angles"  was declared but never referenced
+  	int set_gyro_angles = 0;
+../Src/main.c(161): warning:  #177-D: variable "gps_s"  was declared but never referenced
+  	int gps_s = 0;
+../Src/main.c: 32 warnings, 0 errors
+linking...
+Program Size: Code=16812 RO-data=608 RW-data=32 ZI-data=1408  
+"super_global_configuration\super_global_configuration.axf" - 0 Error(s), 32 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.0.1.pack
+                ARM.CMSIS.5.0.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.0.1
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.2.0.pack
+                Keil.STM32F1xx_DFP.2.2.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_super_global_configuration
+  D:\STM32_apps\Keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include
+  D:\STM32_apps\Keil\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.0.1
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

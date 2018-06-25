@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+"super_global_configuration\stm32f1xx_hal_rcc_ex.o"
+"super_global_configuration\stm32f1xx_hal_rcc.o"
+"super_global_configuration\stm32f1xx_hal_cortex.o"
+"super_global_configuration\stm32f1xx_hal_tim.o"
+"super_global_configuration\stm32f1xx_hal_flash.o"
+"super_global_configuration\stm32f1xx_hal.o"
+"super_global_configuration\stm32f1xx_hal_uart.o"
+"super_global_configuration\stm32f1xx_hal_tim_ex.o"
+"super_global_configuration\stm32f1xx_hal_flash_ex.o"
+"super_global_configuration\stm32f1xx_hal_dma.o"
+"super_global_configuration\stm32f1xx_hal_i2c.o"
+"super_global_configuration\stm32f1xx_hal_gpio.o"
+"super_global_configuration\stm32f1xx_hal_pwr.o"
+"super_global_configuration\stm32f1xx_hal_gpio_ex.o"
+"super_global_configuration\main.o"
+"super_global_configuration\stm32f1xx_hal_msp.o"
+"super_global_configuration\stm32f1xx_it.o"
+"super_global_configuration\mpu6050.o"
+"super_global_configuration\bmp280.o"
+"super_global_configuration\util.o"
+"super_global_configuration\hal_gps.o"
+"super_global_configuration\system_stm32f1xx.o"
+"super_global_configuration\startup_stm32f103xb.o"
+--library_type=microlib --strict --scatter "super_global_configuration\super_global_configuration.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "super_global_configuration.map" -o super_global_configuration\super_global_configuration.axf
